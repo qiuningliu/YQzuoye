@@ -1,28 +1,3 @@
-reference:
-- title: IRT
-  desc: ~
-  contents:
-  - '`yq_irt`'
-  - '`iteminfox`'
-  - '`testinfox`'
-- title: 增值评价（hlm）
-  desc: ~
-  contents:
-  - '`hlm_value_added`'
-- title: 画图
-  desc: ~
-  contents:
-  - '`bar_1`'
-  - '`bar_2`'
-  - '`bar_error`'
-  - '`line_dot_1`'
-  - '`stack_plot`'
-  - '`boxplot_adv`'
-
-toc:
-  depth: 2
-
-
 navbar:
   structure:
     left:
