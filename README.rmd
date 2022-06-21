@@ -45,6 +45,30 @@ testinfox(
   which.items = 1:nrow(it)
 )
 ```
+
+IRT example
+
+```{r}
+# load score data
+data(score_mat)
+# load tag data
+data(TAG)
+dim_vector <- TAG %>% filter(tag_type == "认知") %>% to_dim_vector(score_data = score_mat[,-1],.,'qid','dim',levels = unique(.[,'dim']))
+# load max_score data
+data(max_score)
+# make input
+input <- list()
+input$score_mat <- score_mat[,-1]
+input$irt_type <- 1
+input$locate_parameter <- TRUE
+input$calling_count <- 0
+# input$item_info$max_score <- max_score
+input$item_info$dim_vector <- dim_vector
+out <- yq_irt(input)
+str(out)
+```
+
+
 ### 增值评价
 
 ```{r}
