@@ -64,6 +64,9 @@
     <loc>/reference/cvf.html</loc>
   </url>
   <url>
+    <loc>/reference/drop_nax.html</loc>
+  </url>
+  <url>
     <loc>/reference/fontset.html</loc>
   </url>
   <url>
@@ -80,6 +83,9 @@
   </url>
   <url>
     <loc>/reference/iteminfox.html</loc>
+  </url>
+  <url>
+    <loc>/reference/kmean_eclust.html</loc>
   </url>
   <url>
     <loc>/reference/line_dot_1.html</loc>
